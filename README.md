@@ -4,7 +4,7 @@
 
 - Build a client-side-heavy Rails-API or Sinatra application
 - Consume a JSON API
-- Build single-page app using raw OO JS, Backbone, or other JS single-page app framework
+- Build single-page app using raw OO JS
 - Write organized and maintainable Javascript code
 
 ### Summary
