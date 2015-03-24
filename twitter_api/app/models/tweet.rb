@@ -1,4 +1,4 @@
 class Tweet < ActiveRecord::Base
 	belongs_to :user
-	has_many_and_belongs_to :hashtags
+	has_and_belongs_to_many :hashtags
 end
