@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 20150324185746) do
   add_index "hashtags_tweets", ["tweet_id"], name: "index_hashtags_tweets_on_tweet_id", using: :btree
 
   create_table "tweets", force: :cascade do |t|
-    t.text     "tweet"
+    t.text     "body"
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -41,8 +41,8 @@ ActiveRecord::Schema.define(version: 20150324185746) do
 
   create_table "users", force: :cascade do |t|
     t.string   "username"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

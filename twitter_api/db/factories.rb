@@ -10,7 +10,7 @@ FactoryGirl.define do
 
 
   factory :tweet do
-    tweet { Faker::Hacker.say_something_smart }
+    body { Faker::Hacker.say_something_smart }
   end
 
   factory :hashtag do

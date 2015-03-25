@@ -1,0 +1,5 @@
+<h1>Tweets</h1>
+<% @tweets.each do |tweet| %>
+<h2>Tweet: </h2><%= tweet.body %> </br>
+<h2>Author: <%= tweet.user.username %></h2></br></br>
+<% end %>
